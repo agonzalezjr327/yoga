@@ -4,7 +4,7 @@ const Services = () => {
 
     return (
         
-        <div className="max-md:mb-32 max-sm:mb-28 pb-20 w-full min-h-screen overflow-x-hidden bg-[#d0efe1]" style={{ textShadow: '1px 1px 2px black' }}>
+        <div className="pb-20 w-full min-h-screen overflow-x-hidden bg-[#d0efe1]" style={{ textShadow: '1px 1px 2px black' }}>
         
             <h1 className="font-extrabold text-center text-5xl py-5" style={{ backgroundColor: '#6c9894', color: '#d0efe1', textShadow: '1px 1px 2px black' }}>Available Services</h1>
 

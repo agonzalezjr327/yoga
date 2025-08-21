@@ -23,7 +23,7 @@ const Landing = () => {
                         </div>
                         <div className="d-flex justify-center items-center flex-column">
                         <img src="src/assets/images/credentials.png" />
-                        <img src="src/assets/images/logo500.png" alt='logo'/>
+                        <img className="m-auto" src="/src/assets/images/rymt500.png" alt='R-YFMT 500 logo' width={100}/>
                         </div>
 
                     </div>
