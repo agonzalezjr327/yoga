@@ -1,4 +1,9 @@
 import BottomNavbar from "./BottomNavbar";
+import luckettKelly from '../assets/images/luckett-kelly.jpg'
+import lammie from '../assets/images/lammie.jpg'
+import pham from '../assets/images/pham.jpg'
+import allison from '../assets/images/allison.jpg'
+
 
 const About = () => {
 
@@ -163,7 +168,7 @@ const About = () => {
                             <div className="flex justify-center items-center flex-row p-2 w-full">
 
                                 <section className="w-1/2">
-                                    <img src="src/assets/images/luckett-kelly.jpg" alt="Lucia Luckett-Kelly Photo" />
+                                    <img src={luckettKelly} alt="Lucia Luckett-Kelly Photo" />
                                 </section>
 
                                 <section className="m-6 w-1/2">
@@ -179,7 +184,7 @@ const About = () => {
                             <div className="flex justify-center items-center flex-row p-2 w-full">
 
                                 <section className="w-1/2">
-                                    <img src="src/assets/images/lammie.jpg" alt="Alicia Lammie Photo" />
+                                    <img src={lammie} alt="Alicia Lammie Photo" />
                                 </section>
 
                                 <section className="m-6 w-1/2">
@@ -195,7 +200,7 @@ const About = () => {
                             <div className="flex justify-center items-center flex-row p-2 w-full">
 
                                 <section className="w-1/2">
-                                    <img src="src/assets/images/pham.jpg" alt="Tony Pham Photo" />
+                                    <img src={pham} alt="Tony Pham Photo" />
                                 </section>
 
                                 <section className="m-6 w-1/2">
@@ -211,7 +216,7 @@ const About = () => {
                             <div className="flex justify-center items-center flex-row p-2 w-full">
 
                                 <section className="w-1/2">
-                                    <img src="src/assets/images/allison.jpg" alt="Zoraida Salas Allison Photo" />
+                                    <img src={allison} alt="Zoraida Salas Allison Photo" />
                                 </section>
 
                                 <section className="m-6 w-1/2">

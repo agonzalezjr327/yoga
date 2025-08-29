@@ -1,5 +1,16 @@
 import BottomNavbar from "./BottomNavbar"
 
+// Import all images
+import myLogo from "../assets/images/myLogo.png";
+import giveBackYoga from "../assets/images/givebackyoga.png";
+import pollinationProject from "../assets/images/thepollinationproject.jpg";
+import cym from "../assets/images/CYM1.png";
+import gaiam from "../assets/images/gaiam.png";
+import harnisch from "../assets/images/harnisch.png";
+import af from "../assets/images/af.png";
+import yogaAlliance from "../assets/images/yogaAllianceLogo.png";
+import hathaLogo from "../assets/images/hathaLogo.png";
+
 const Links = () => {
 
     return (
@@ -8,7 +19,7 @@ const Links = () => {
             <div className="hero" >
                 <div className="hero-content flex-col" >
 
-                    <img src="src/assets/images/myLogo.png" alt="logo" className="max-w-sm rounded-lg shadow-2xl" />
+                    <img src={myLogo} alt="logo" className="max-w-sm rounded-lg shadow-2xl" />
 
                     <div style={{ color: '#6c9894' }} >
 
@@ -52,56 +63,56 @@ const Links = () => {
 
                                         <div className="flex flex-col justify-center items-center text-center">
                                             <a target="_blank" href="https://givebackyoga.org/" className="hover:animate-bounce">
-                                                <img src="src/assets/images/givebackyoga.png" alt="give back yoga logo" className="w-16 h-16" />
+                                                <img src={giveBackYoga} alt="give back yoga logo" className="w-16 h-16" />
                                             </a>
                                             <p className="text-center">Give Back Yoga</p>
                                         </div>
 
                                         <div className="flex flex-col justify-center items-center text-center">
                                             <a target="_blank" href="https://thepollinationproject.org/" className="hover:animate-bounce">
-                                                <img src="src/assets/images/thepollinationproject.jpg" alt="the pollination project logo" className="w-16 h-16" />
+                                                <img src={pollinationProject} alt="the pollination project logo" className="w-16 h-16" />
                                             </a>
                                             <p className="text-center">Pollination Project</p>
                                         </div>
 
                                         <div className="flex flex-col justify-center items-center text-center">
                                             <a target="_blank" href="https://www.christianyogamagazine.com/" className="hover:animate-bounce">
-                                                <img src="src/assets/images/CYM1.png" alt="cristian yoga magazine logo" className="w-16 h-16" />
+                                                <img src={cym} alt="cristian yoga magazine logo" className="w-16 h-16" />
                                             </a>
                                             <p className="text-center">Christian Yoga Magazine</p>
                                         </div>
 
                                         <div className="flex flex-col justify-center items-center text-center">
                                             <a target="_blank" href="https://www.gaiam.com/" className="hover:animate-bounce">
-                                                <img src="src/assets/images/gaiam.png" alt="gaiam logo" className="w-16 h-16" />
+                                                <img src={gaiam} alt="gaiam logo" className="w-16 h-16" />
                                             </a>
                                             <p className="text-center">Gaiam</p>
                                         </div>
 
                                         <div className="flex flex-col justify-center items-center text-center">
                                             <a target="_blank" href="https://thehf.org/" className="hover:animate-bounce">
-                                                <img src="src/assets/images/harnisch.png" alt="harnisch foundation logo" className="w-16 h-16" />
+                                                <img src={harnisch} alt="harnisch foundation logo" className="w-16 h-16" />
                                             </a>
                                             <p className="text-center">Harnisch Foundation</p>
                                         </div>
 
                                         <div className="flex flex-col justify-center items-center">
                                             <a target="_blank" href="https://www.awesomefoundation.org/en" className="hover:animate-bounce">
-                                                <img src="src/assets/images/af.png" alt="awesome foundation logo" className="w-16 h-16" />
+                                                <img src={af} alt="awesome foundation logo" className="w-16 h-16" />
                                             </a>
                                             <p className="text-center">Awesome Foundation</p>
                                         </div>
 
                                         <div className="flex flex-col justify-center items-center">
                                             <a target="_blank" href="https://www.yogaalliance.org/" className="hover:animate-bounce">
-                                                <img src="src/assets/images/yogaAllianceLogo.png" alt="yoga alliance logo" className="w-16 h-16" />
+                                                <img src={yogaAlliance} alt="yoga alliance logo" className="w-16 h-16" />
                                             </a>
                                             <p className="text-center">Yoga Alliance</p>
                                         </div>
 
                                         <div className="flex flex-col justify-center items-center">
                                             <a target="_blank" href="https://www.hathanp.org/" className="hover:animate-bounce">
-                                                <img src="src/assets/images/hathaLogo.png" alt="yoga alliance logo" className="w-16 h-16" />
+                                                <img src={hathaLogo} alt="yoga alliance logo" className="w-16 h-16" />
                                             </a>
                                             <p className="text-center">HATHA</p>
                                         </div>

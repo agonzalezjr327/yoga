@@ -1,7 +1,9 @@
 import { useNavigate } from "react-router-dom";
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
-import info from "../assets/pdf/bbbinfo.pdf"
+import info from "../assets/pdf/bbbinfo.pdf";
+import myLogo from "../assets/images/myLogo.png";
+
 
 const Navbar = () => {
 
@@ -74,7 +76,7 @@ const Navbar = () => {
             </div>
 
             <div className="flex flex-row justify-end w-full">
-                <img src="src/assets/images/myLogo.png" alt="logo" className="max-w-44 max-h-28" />
+                <img src={myLogo} alt="logo" className="max-w-44 max-h-28" />
             </div>
 
             <dialog id="contact-form" className="modal">

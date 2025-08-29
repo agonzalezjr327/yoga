@@ -1,4 +1,12 @@
-import BottomNavbar from "./BottomNavbar"
+import BottomNavbar from "./BottomNavbar";
+import event10 from "../assets/images/event10.jpg";
+import event8 from "../assets/images/event8.jpg";
+import event5 from "../assets/images/event5.jpg";
+import articleCover1 from "../assets/images/articlecover1.png";
+import event16 from "../assets/images/event16.jpg";
+import event12 from "../assets/images/event12.jpg";
+import event15 from "../assets/images/event15.jpg";
+
 
 const Services = () => {
 
@@ -15,42 +23,54 @@ const Services = () => {
                 </div>
 
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
-                    <figure className="max-w-20 min-w-20 max-h-20 min-h-20"><img src="src/assets/images/event10.jpg" alt="mother and daughter" /></figure>
+                    <figure className="max-w-20 min-w-20 max-h-20 min-h-20">
+                        <img src={event10} alt="mother and daughter" />
+                        </figure>
                     <div className="card-body">
                         <h2 className="card-title">Education & Youth Organization Programs</h2>
                     </div>
                 </div>
 
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
-                    <figure className="max-w-20 min-w-20 max-h-20 min-h-20"><img src="src/assets/images/event8.jpg" alt="donna instructing" /></figure>
+                    <figure className="max-w-20 min-w-20 max-h-20 min-h-20">
+                        <img src={event8} alt="donna instructing" />
+                        </figure>
                     <div className="card-body">
                         <h2 className="card-title">Introduction to Yoga</h2>
                     </div>
                 </div>
 
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
-                    <figure className="max-w-20 min-w-20 max-h-20 min-h-20"><img src="src/assets/images/event5.jpg" alt="family yoga" /></figure>
+                    <figure className="max-w-20 min-w-20 max-h-20 min-h-20">
+                        <img src={event5} alt="family yoga" />
+                        </figure>
                     <div className="card-body">
                         <h2 className="card-title">Family Yoga</h2>
                     </div>
                 </div>
 
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
-                    <figure className="max-w-20 min-w-20 max-h-20 min-h-20"><img src="src/assets/images/articlecover1.png" alt="Christian Yoga Magazine cover" /></figure>
+                    <figure className="max-w-20 min-w-20 max-h-20 min-h-20">
+                        <img src={articleCover1} alt="Christian Yoga Magazine cover" />
+                        </figure>
                     <div className="card-body">
                         <h2 className="card-title">Yoga & Creative Journaling</h2>
                     </div>
                 </div>
 
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
-                    <figure className="max-w-20 min-w-20 max-h-20 min-h-20"><img src="src/assets/images/event16.jpg" alt="class photo in action" /></figure>
+                    <figure className="max-w-20 min-w-20 max-h-20 min-h-20">
+                        <img src={event16} alt="class photo in action" />
+                        </figure>
                     <div className="card-body">
                         <h2 className="card-title">Faith-based Classes and Workshops</h2>
                     </div>
                 </div>
 
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
-                    <figure className="max-w-20 min-w-20 max-h-20 min-h-20"><img src="src/assets/images/event12.jpg" alt="womwn class posing for photo" /></figure>
+                    <figure className="max-w-20 min-w-20 max-h-20 min-h-20">
+                        <img src={event12} alt="womwn class posing for photo" />
+                        </figure>
                     <div className="card-body">
                         <h2 className="card-title">Yoga for Empowered Women (a signature program of Blessings Balance Breath Yoga)</h2>
                     </div>
@@ -58,7 +78,9 @@ const Services = () => {
 
 
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
-                    <figure className="max-w-20 min-w-20 max-h-20 min-h-20"><img src="src/assets/images/event15.jpg" alt="group after class" /></figure>
+                    <figure className="max-w-20 min-w-20 max-h-20 min-h-20">
+                        <img src={event15} alt="group after class" />
+                        </figure>
                     <div className="card-body">
                         <h2 className="card-title">Specialized & Customized Programs</h2>
                     </div>

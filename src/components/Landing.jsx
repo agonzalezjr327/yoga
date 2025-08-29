@@ -1,4 +1,7 @@
-import Navbar from "./Navbar"
+import Navbar from "./Navbar";
+import heroImg from "../assets/images/heroImg.png";
+import credentials from "../assets/images/credentials.png";
+import rymt500 from "../assets/images/rymt500.png";
 
 const Landing = () => {
     return (   
@@ -16,14 +19,14 @@ const Landing = () => {
                             <h1 className="text-4xl font-bold max-md:text-xl m-3 p-2" >Blessings Balance Breath Yoga</h1>
                         </div>
 
-                        <img src="src/assets/images/heroImg.png" className="rounded-full lg:h-3/5" style={{ border: '2px solid #d0efe1' }} />
+                        <img src={heroImg} className="rounded-full lg:h-3/5" style={{ border: '2px solid #d0efe1' }} />
 
                         <div className="w-full" style={{ backgroundColor: '#d0efe1', color: '#6c9894', textShadow: '1px 1px 2px black' }} >
                             <p className="py-6 m-3 max-md:text-sm" >Dedicated to bringing yoga to underserved, underrepresented, marginalized, and system/justice-impacted populations. Providing the healing practice of yoga to reclaim empowerment and harmony. Restoring self-esteem, self-efficacy, and individualism.</p>
                         </div>
                         <div className="d-flex justify-center items-center flex-column">
-                        <img src="src/assets/images/credentials.png" />
-                        <img className="m-auto" src="/src/assets/images/rymt500.png" alt='R-YFMT 500 logo' width={100}/>
+                        <img src={credentials} />
+                        <img className="m-auto" src={rymt500} alt='R-YFMT 500 logo' width={100}/>
                         </div>
 
                     </div>

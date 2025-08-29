@@ -4,6 +4,9 @@ import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import myFlyer from "../assets/images/flyer.png"
 import qrCode from "../assets/images/qr-code.jpg"
+import myLogo from "../assets/images/myLogo.png";
+import donationsBg from "../assets/images/donations.png";
+
 
 const Donate = () => {
 
@@ -37,7 +40,7 @@ const Donate = () => {
         <>
 
             <header className="flex flex-col justify-center items-center" style={{ backgroundColor: '#6c9894' }} >
-                <img src="src/assets/images/myLogo.png" alt="logo" className=" max-w-44 max-h-28" />
+                <img src={myLogo} alt="logo" className=" max-w-44 max-h-28" />
             </header>
 
             <ul className="flex flex-row justify-evenly" style={{ backgroundColor: '#6c9894' }}>
@@ -53,7 +56,7 @@ const Donate = () => {
 
             <div className="hero min-h-screen p-9" style={{ backgroundColor: '#d0efe1', color:'#6c9894', textShadow:'1px 1px 1px black' }}>
 
-                <div className="hero-content text-center w-11/12 max-md:w-full" style={{ backgroundImage: "url(src/assets/images/donations.png)", border: '9px solid #6c9894', backgroundSize:'cover' }}>
+                <div className="hero-content text-center w-11/12 max-md:w-full" style={{ backgroundImage: `url(${donationsBg})`, border: '9px solid #6c9894', backgroundSize:'cover' }}>
 
                         {/* <div className="hero min-h-screen" style={{ backgroundColor: '#d0efe1', color:'#6c9894', textShadow:'1px 1px 1px black' }}> */}
                         
