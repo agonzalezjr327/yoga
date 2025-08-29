@@ -2,6 +2,8 @@ import { useNavigate } from "react-router-dom";
 import info from "../assets/pdf/bbbinfo.pdf"
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
+import myFlyer from "../assets/images/flyer.png"
+import qrCode from "../assets/images/qr-code.jpg"
 
 const Donate = () => {
 
@@ -63,6 +65,9 @@ const Donate = () => {
 
                         <button className="btn btn-primary rounded-badge bg-green-700 text-zinc-50 hover:bg-green-500" onClick={() => window.open("https://givebutter.com/3Nv2cE/", "_blank")}>DONATE NOW</button>
 
+                        <p>Click on the image below to see our fundraising flyer, donate or purchase a ticket to the event.</p>
+                        <a href="https://givebutter.com/8hNtwe" target="_blank"><img src={myFlyer} alt="Fundraising Flyer" /></a>
+
                         <h5 className="py-6">Ways to give to Blessings Balance Breath Yoga</h5>
 
                         <div className="text-left">
@@ -77,6 +82,9 @@ const Donate = () => {
                                 <p>PMB #183</p>
                                 <p>Phoenix, AZ 85048</p>
                             </section>
+                            <div className="flex flex-col justify-center items-center py-6">
+                            <img src={qrCode} alt="" />
+                            </div>
 
                         </div>
 

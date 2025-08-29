@@ -568,7 +568,7 @@ const Gallery = () => {
 
                         <div id="slide55" className="carousel-item relative w-full items-center justify-center">
                             <div className="w-full h-[500px] md:h-[600px] flex items-center justify-center">
-                            <img src="src/assets/gallery/gallery34.jpg" className="w-full h-full object-cover rounded-lg shadow-lg" />
+                            <img src="src/assets/gallery/gallery34.jpg" className="w-full h-full object-center rounded-lg shadow-lg" />
                             </div>
                             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                                 <a href="#slide54" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❮</a>
@@ -588,7 +588,7 @@ const Gallery = () => {
 
                         <div id="slide57" className="carousel-item relative w-full items-center justify-center">
                             <div className="w-full h-[500px] md:h-[600px] flex items-center justify-center">
-                            <img src="src/assets/gallery/gallery36.jpg" className="w-full h-full object-cover rounded-lg shadow-lg" />
+                            <img src="src/assets/gallery/gallery36.jpg" className="w-full h-full object-center rounded-lg shadow-lg" />
                             </div>
                             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                                 <a href="#slide55" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❮</a>

@@ -34,7 +34,7 @@ const Landing = () => {
             
                 <footer className="footer footer-center p-10 bg-base-200 text-base-content" style={{ backgroundColor: '#6c9894' }}>
                     <div>
-                        <p className="text-white">© 2025 Blessings Balance Breath Yoga</p>
+                        <p className="">© 2025 Blessings Balance Breath Yoga</p>
                         <p>All Rights Reserved</p>
                         <p>Created by <a href="https://agonzalezjr327.github.io/portfolio/" className="link hover:text-green-900 hover:bg-green-100" target="_blank">MiraSite LLC</a></p>
                     </div>
