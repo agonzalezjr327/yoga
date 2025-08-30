@@ -3,6 +3,7 @@ import luckettKelly from '../assets/images/luckett-kelly.jpg'
 import lammie from '../assets/images/lammie.jpg'
 import pham from '../assets/images/pham.jpg'
 import allison from '../assets/images/allison.jpg'
+import bioVideo from '../assets/images/videoIntro.mp4'
 
 
 const About = () => {
@@ -27,7 +28,7 @@ const About = () => {
 
                         <div className="collapse-content p-1 flex flex-col items-center flex-1 justify-center">
                             <video controls className="min-w-40 max-w-80">
-                                <source src="src/assets/images/videoIntro.MOV" /></video>
+                                <source src={bioVideo} /></video>
                         </div>
 
                     </div>

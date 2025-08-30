@@ -16,8 +16,8 @@ const BottomNavbar = () => {
 
     const [input, setInput] = useState({
         name: "",
-        email: "",
-        subject: "",
+        user_email: "",
+        title: "",
         message: "",
     })
 
@@ -29,12 +29,26 @@ const BottomNavbar = () => {
         }))
     }
 
-    const handleSubmit = (e) => {
+   const handleSubmit = (e) => {
         e.preventDefault()
         emailjs
-            .send("service_9gk0on8", "template_gx3imsd", input, { publicKey: "P2CVCJ58_ylJEjeFM" })
-            .then(response => console.log('success', response.status, response.text))
-            .catch(err => { console.log("fail", err); alert("fali") })
+            .send("service_h1s3bh1", "template_750ajko", input, { publicKey: "Dcer_KAzgv5Ye8ngU" })
+            .then((response) => {
+                console.log('SUCCESS!', response.status, response.text);
+                alert("Message sent!");
+                form.current.reset();
+                document.getElementById('contact-form').close();
+                setInput({
+                    from_name: "",
+                    user_email: "",
+                    subject: "",
+                    message: "",
+                });
+            })
+            .catch((err) => {
+                console.error("FAILED...", err);
+                alert("Failed to send message");
+            });
     }
 
     return (
@@ -167,7 +181,7 @@ const BottomNavbar = () => {
             </OverlayTrigger>
 
 
-            <dialog id="contact-form" className="modal">
+            {/* <dialog id="contact-form" className="modal">
 
                 <div className="modal-box opacity-95" style={{ backgroundColor: '#6c9894', color: '#d0efe1' }} >
 
@@ -241,6 +255,60 @@ const BottomNavbar = () => {
 
                         </form>
 
+                    </div>
+
+                </div>
+
+            </dialog> */}
+
+<dialog id="contact-form" className="modal">
+
+                <div className="modal-box opacity-95" style={{ backgroundColor: '#6c9894', color: '#d0efe1' }} >
+
+                    <h3 className="font-bold text-lg text-center">Please consider being the blessing in providing balance to others, one breath at a time.</h3>
+
+                    <p className="py-4 text-center">Press ESC key or click the button below to close</p>
+
+                    <form className="flex flex-col justify-center items-center" onSubmit={handleSubmit} ref={form}>
+
+                        <div className="form-control w-full max-w-xs">
+                            <label className="label">
+                                <span className="label-text">NAME</span>
+                            </label>
+                            <input type="text" name="name" className="input input-bordered input-sm w-full max-w-xs" onChange={handleInput} required />
+                        </div>
+
+                        <div className="form-control w-full max-w-xs">
+                            <label className="label">
+                                <span className="label-text">EMAIL</span>
+                            </label>
+                            <input type="email" name="user_email" pattern=".+@[a-z]*['.'][a-z]{2,}" className="input input-bordered input-sm w-full max-w-xs" onChange={handleInput} required />
+                        </div>
+
+                        <div className="form-control w-full max-w-xs">
+                            <label className="label">
+                                <span className="label-text">SUBJECT</span>
+                            </label>
+                            <input type="text" name="title" className="input input-bordered input-sm w-full max-w-xs" onChange={handleInput} required />
+                        </div>
+
+                        <div className="form-control w-full max-w-xs">
+                            <label className="label">
+                                <span className="label-text">MESSAGE</span>
+                            </label>
+                            <textarea name="message" className="textarea textarea-bordered" onChange={handleInput} required></textarea>
+                        </div>
+
+                        <div className="m-5">
+                            <button type="submit" className="btn hover:bg-green-200 hover:text-amber-400 active:bg-green-500">SEND</button>
+                        </div>
+
+                    </form>
+
+                    <div className="modal-action">
+                        <form method="dialog">
+                            <button className="btn hover:bg-red-400 hover:text-amber-400 active:bg-red-900">Close</button>
+                        </form>
                     </div>
 
                 </div>
