@@ -91,7 +91,7 @@ export default function Articles() {
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
 
                     <figure className="max-w-28">
-                        <img src={articleCover6e} alt="Christian Yoga Magazine Vol. 4 Issue 15 Winter 2024 cover" />
+                        <img src={articleCover6e} loading="lazy" alt="Christian Yoga Magazine Vol. 4 Issue 15 Winter 2024 cover" />
                         </figure>
 
                     <div className="card-body">
@@ -131,7 +131,7 @@ export default function Articles() {
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
 
                     <figure className="max-w-28">
-                        <img src={articleCover7} alt="Christian Yoga Magazine Vol. 3 Issue 14 Holiday 2023 cover" />
+                        <img src={articleCover7} loading="lazy" alt="Christian Yoga Magazine Vol. 3 Issue 14 Holiday 2023 cover" />
                         </figure>
 
                     <div className="card-body">
@@ -171,7 +171,7 @@ export default function Articles() {
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
 
                     <figure className="max-w-28">
-                        <img src={articleCover8} alt="Christian Yoga Magazine Vol. 3 Issue 13 Fall 2023 cover" />
+                        <img src={articleCover8} loading="lazy" alt="Christian Yoga Magazine Vol. 3 Issue 13 Fall 2023 cover" />
                         </figure>
 
                     <div className="card-body">
@@ -211,7 +211,7 @@ export default function Articles() {
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
 
                     <figure className="max-w-28">
-                        <img src={articleCover5} alt="Christian Yoga Magazine Vol. 3 Issue 12 Summer 2023 cover" />
+                        <img src={articleCover5} loading="lazy" alt="Christian Yoga Magazine Vol. 3 Issue 12 Summer 2023 cover" />
                         </figure>
 
                     <div className="card-body">
@@ -251,7 +251,7 @@ export default function Articles() {
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
 
                     <figure className="max-w-28">
-                        <img src={articleCover9} alt="Christian Yoga Magazine Vol. 3 Issue 11 Late Spring 2023 cover" />
+                        <img src={articleCover9} loading="lazy" alt="Christian Yoga Magazine Vol. 3 Issue 11 Late Spring 2023 cover" />
                         </figure>
 
                     <div className="card-body">
@@ -291,7 +291,7 @@ export default function Articles() {
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
 
                     <figure className="max-w-28">
-                        <img src={articleCover3} alt="Christian Yoga Magazine Vol. 3 Issue 10 Spring 2023 cover" />
+                        <img src={articleCover3} loading="lazy" alt="Christian Yoga Magazine Vol. 3 Issue 10 Spring 2023 cover" />
                         </figure>
 
                     <div className="card-body">
@@ -331,7 +331,7 @@ export default function Articles() {
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
 
                     <figure className="max-w-28">
-                        <img src={articleCover12} alt="Christian Yoga Magazine Vol. 2 Issue 7 Fall 2022 cover" />
+                        <img src={articleCover12} loading="lazy" alt="Christian Yoga Magazine Vol. 2 Issue 7 Fall 2022 cover" />
                         </figure>
 
                     <div className="card-body">
@@ -371,7 +371,7 @@ export default function Articles() {
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
 
                     <figure className="max-w-28">
-                        <img src={articleCover2} alt="Christian Yoga Magazine Vol. 2 Issue 8 Holiday 2022 cover" />
+                        <img src={articleCover2} loading="lazy" alt="Christian Yoga Magazine Vol. 2 Issue 8 Holiday 2022 cover" />
                         </figure>
 
                     <div className="card-body">
@@ -411,7 +411,7 @@ export default function Articles() {
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
 
                     <figure className="max-w-28">
-                        <img src={articleCover6} alt="Christian Yoga Magazine Summer 2022 Issue 7 cover" />
+                        <img src={articleCover6} loading="lazy" alt="Christian Yoga Magazine Summer 2022 Issue 7 cover" />
                         </figure>
 
                     <div className="card-body">
@@ -451,7 +451,7 @@ export default function Articles() {
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
 
                     <figure className="max-w-28">
-                        <img src={articleCover10} alt="Christian Yoga Magazine Late Spring 2022 Issue 6 cover" />
+                        <img src={articleCover10} loading="lazy" alt="Christian Yoga Magazine Late Spring 2022 Issue 6 cover" />
                         </figure>
 
                     <div className="card-body">
@@ -491,7 +491,7 @@ export default function Articles() {
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
 
                     <figure className="max-w-28">
-                        <img src={articleCover1} alt="Christian Yoga Magazine Spring 2022 Issue 5 cover" />
+                        <img src={articleCover1} loading="lazy" alt="Christian Yoga Magazine Spring 2022 Issue 5 cover" />
                         </figure>
 
                     <div className="card-body">
@@ -532,7 +532,7 @@ export default function Articles() {
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
 
                     <figure className="max-w-28">
-                        <img src={articleCover4} alt="Christian Yoga Magazine Winter 2022 cover" />
+                        <img src={articleCover4} loading="lazy" alt="Christian Yoga Magazine Winter 2022 cover" />
                         </figure>
 
                     <div className="card-body">
@@ -573,7 +573,7 @@ export default function Articles() {
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
 
                     <figure className="max-w-28">
-                        <img src={CYM1} alt="christian yoga magazine logo" />
+                        <img src={CYM1} loading="lazy" alt="christian yoga magazine logo" />
                         </figure>
 
                     <div className="card-body">
@@ -613,7 +613,7 @@ export default function Articles() {
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
 
                     <figure className="max-w-28">
-                        <img src={articleCover11} alt="Christian Yoga Magazine Fall Sep. 1, 2021 cover" />
+                        <img src={articleCover11} loading="lazy" alt="Christian Yoga Magazine Fall Sep. 1, 2021 cover" />
                         </figure>
 
                     <div className="card-body">

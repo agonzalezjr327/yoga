@@ -371,23 +371,13 @@ const Gallery = () => {
                             </div>
                         </div>
 
-                        {/* <div id="slide55" className="carousel-item relative w-full items-center justify-center">
-                            <div className="w-full h-[500px] md:h-[600px] flex items-center justify-center">
-                            <img src={images[47]} loading="lazy" className="w-full h-full object-center rounded-lg shadow-lg" />
-                            </div>
-                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                                <a href="#slide53" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❮</a>
-                                <a href="#slide57" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❯</a>
-                            </div>
-                        </div> */}
-
                         <div id="slide57" className="carousel-item relative w-full items-center justify-center">
                             <div className="w-full h-[500px] md:h-[600px] flex items-center justify-center">
                             <img src={images[48]} loading="lazy" className="w-full h-full object-center rounded-lg shadow-lg" />
                             </div>
                             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                                 <a href="#slide53" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❮</a>
-                                <a href="#slide1" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❯</a>
+                                <a href="#slide2" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❯</a>
                             </div>
                         </div>
 

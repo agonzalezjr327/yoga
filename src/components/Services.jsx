@@ -24,7 +24,7 @@ const Services = () => {
 
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
                     <figure className="max-w-20 min-w-20 max-h-20 min-h-20">
-                        <img src={event10} alt="mother and daughter" />
+                        <img src={event10} loading="lazy" alt="mother and daughter" />
                         </figure>
                     <div className="card-body">
                         <h2 className="card-title">Education & Youth Organization Programs</h2>
@@ -33,7 +33,7 @@ const Services = () => {
 
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
                     <figure className="max-w-20 min-w-20 max-h-20 min-h-20">
-                        <img src={event8} alt="donna instructing" />
+                        <img src={event8} loading="lazy" alt="donna instructing" />
                         </figure>
                     <div className="card-body">
                         <h2 className="card-title">Introduction to Yoga</h2>
@@ -42,7 +42,7 @@ const Services = () => {
 
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
                     <figure className="max-w-20 min-w-20 max-h-20 min-h-20">
-                        <img src={event5} alt="family yoga" />
+                        <img src={event5} loading="lazy" alt="family yoga" />
                         </figure>
                     <div className="card-body">
                         <h2 className="card-title">Family Yoga</h2>
@@ -51,7 +51,7 @@ const Services = () => {
 
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
                     <figure className="max-w-20 min-w-20 max-h-20 min-h-20">
-                        <img src={articleCover1} alt="Christian Yoga Magazine cover" />
+                        <img src={articleCover1} loading="lazy" alt="Christian Yoga Magazine cover" />
                         </figure>
                     <div className="card-body">
                         <h2 className="card-title">Yoga & Creative Journaling</h2>
@@ -60,7 +60,7 @@ const Services = () => {
 
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
                     <figure className="max-w-20 min-w-20 max-h-20 min-h-20">
-                        <img src={event16} alt="class photo in action" />
+                        <img src={event16} loading="lazy" alt="class photo in action" />
                         </figure>
                     <div className="card-body">
                         <h2 className="card-title">Faith-based Classes and Workshops</h2>
@@ -69,7 +69,7 @@ const Services = () => {
 
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
                     <figure className="max-w-20 min-w-20 max-h-20 min-h-20">
-                        <img src={event12} alt="womwn class posing for photo" />
+                        <img src={event12} loading="lazy" alt="womwn class posing for photo" />
                         </figure>
                     <div className="card-body">
                         <h2 className="card-title">Yoga for Empowered Women (a signature program of Blessings Balance Breath Yoga)</h2>
@@ -79,7 +79,7 @@ const Services = () => {
 
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
                     <figure className="max-w-20 min-w-20 max-h-20 min-h-20">
-                        <img src={event15} alt="group after class" />
+                        <img src={event15} loading="lazy" alt="group after class" />
                         </figure>
                     <div className="card-body">
                         <h2 className="card-title">Specialized & Customized Programs</h2>
