@@ -2,8 +2,9 @@ import { useNavigate } from "react-router-dom";
 import info from "../assets/pdf/bbbinfo.pdf"
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
-import myFlyer from "../assets/images/flyer.png"
+// import myFlyer from "../assets/images/flyer.png"
 import qrCode from "../assets/images/qr-code.jpg"
+import yogaQRCode from "../assets/images/yoga_QR_code.png"
 import myLogo from "../assets/images/myLogo.png";
 import donationsBg from "../assets/images/donations.png";
 
@@ -80,10 +81,12 @@ const Donate = () => {
 
                         <p className="py-6">Consider being the blessing in providing balance to so many, one breath at a time, by investing in our work.</p>
 
-                        <button className="btn btn-primary rounded-badge bg-green-700 text-zinc-50 hover:bg-green-500" onClick={() => window.open("https://givebutter.com/3Nv2cE/", "_blank")}>DONATE NOW</button>
+                        <img src={yogaQRCode} alt="" />
 
-                        <p>Click on the image below to see our fundraising flyer, donate or purchase a ticket to the event.</p>
-                        <a href="https://givebutter.com/8hNtwe" target="_blank"><img src={myFlyer} alt="Fundraising Flyer" /></a>
+                        <button className="btn btn-primary rounded-badge mt-2 bg-green-700 text-zinc-50 hover:bg-green-500" onClick={() => window.open("https://givebutter.com/3Nv2cE/", "_blank")}>DONATE NOW</button>
+
+                        {/* <p>Click on the image below to see our fundraising flyer, donate or purchase a ticket to the event.</p>
+                        <a href="https://givebutter.com/8hNtwe" target="_blank"><img src={myFlyer} alt="Fundraising Flyer" /></a> */}
 
                         <h5 className="py-6">Ways to give to Blessings Balance Breath Yoga</h5>
 

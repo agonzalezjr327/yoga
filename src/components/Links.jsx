@@ -23,7 +23,21 @@ const Links = () => {
 
                     <div style={{ color: '#6c9894' }} >
 
-                        <h1 className="text-xl font-bold text-center mb-4"> The Yoga for Empowered Women Program features justice-impacted women to share their stories with community supporters through mindfulness and creative journaling.</h1>
+                        <h1 className="text-xl text-center mb-4"> The Yoga for Empowered Women Program features justice-impacted women to share their stories with community supporters through mindfulness and creative journaling.</h1>
+
+                        <h2 class="text-center text-xl">
+                            Listen to my podcast interview with Dr. Donna Jagielski here: 
+                             <a
+                                href="https://www.youtube.com/watch?v=-2cjd0mOnwo"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="font-bold transition-all duration-200 hover:scale-105 hover:font-extrabold"
+                            >
+                                 Move the needle podcast
+                            </a>
+                            <span class="font-normal"> (interview begins at 23:17)</span>
+                        </h2>
+
 
                         <div style={{ backgroundColor: '#6c9894', color: '#d0efe1' }}>
 

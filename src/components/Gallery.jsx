@@ -32,6 +32,11 @@ import BottomNavbar from "./BottomNavbar"
     import images45 from "../assets/gallery/DSC_0192.jpg";
     import images47 from "../assets/gallery/DSC_0204.jpg";
     import images49 from "../assets/gallery/gallery36.jpg";
+    import images50 from "../assets/gallery/gallery37.jpg";
+    import images51 from "../assets/gallery/gallery38.jpg";
+    import images52 from "../assets/gallery/gallery39.jpg";
+    import images53 from "../assets/gallery/gallery40.jpg";
+    import images54 from "../assets/gallery/gallery41.jpg";
 
 
 const Gallery = () => {
@@ -67,7 +72,7 @@ const Gallery = () => {
                                 <img src={images2} loading="lazy" className="w-full h-full object-cover rounded-lg shadow-lg" />
                             </div>
                             <div className="absolute inset-0 flex justify-between items-center px-4">
-                                <a href="#slide57" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12 bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❮</a>
+                                <a href="#slide62" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12 bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❮</a>
                                 <a href="#slide4" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12 bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❯</a>
                             </div>
                         </div>
@@ -358,6 +363,56 @@ const Gallery = () => {
                             </div>
                             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                                 <a href="#slide53" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❮</a>
+                                <a href="#slide58" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❯</a>
+                            </div>
+                        </div>
+
+                        <div id="slide58" className="carousel-item relative w-full items-center justify-center">
+                            <div className="w-full h-[500px] md:h-[600px] flex items-center justify-center">
+                            <img src={images50} loading="lazy" className="w-full h-full object-center rounded-lg shadow-lg" />
+                            </div>
+                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide57" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❮</a>
+                                <a href="#slide59" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❯</a>
+                            </div>
+                        </div>
+
+                        <div id="slide59" className="carousel-item relative w-full items-center justify-center">
+                            <div className="w-full h-[500px] md:h-[600px] flex items-center justify-center">
+                            <img src={images51} loading="lazy" className="w-full h-full object-center rounded-lg shadow-lg" />
+                            </div>
+                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide58" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❮</a>
+                                <a href="#slide60" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❯</a>
+                            </div>
+                        </div>
+
+                        <div id="slide60" className="carousel-item relative w-full items-center justify-center">
+                            <div className="w-full h-[500px] md:h-[600px] flex items-center justify-center">
+                            <img src={images52} loading="lazy" className="w-full h-full object-center rounded-lg shadow-lg" />
+                            </div>
+                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide59" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❮</a>
+                                <a href="#slide61" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❯</a>
+                            </div>
+                        </div>
+
+                        <div id="slide61" className="carousel-item relative w-full items-center justify-center">
+                            <div className="w-full h-[500px] md:h-[600px] flex items-center justify-center">
+                            <img src={images53} loading="lazy" className="w-full h-full object-center rounded-lg shadow-lg" />
+                            </div>
+                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide60" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❮</a>
+                                <a href="#slide62" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❯</a>
+                            </div>
+                        </div>
+
+                        <div id="slide62" className="carousel-item relative w-full items-center justify-center">
+                            <div className="w-full h-[500px] md:h-[600px] flex items-center justify-center">
+                            <img src={images54} loading="lazy" className="w-full h-full object-center rounded-lg shadow-lg" />
+                            </div>
+                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide61" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❮</a>
                                 <a href="#slide2" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❯</a>
                             </div>
                         </div>
