@@ -37,6 +37,7 @@ import BottomNavbar from "./BottomNavbar"
     import images52 from "../assets/gallery/gallery39.jpg";
     import images53 from "../assets/gallery/gallery40.jpg";
     import images54 from "../assets/gallery/gallery41.jpg";
+    import images55 from "../assets/gallery/gallery42.jpeg";
 
 
 const Gallery = () => {
@@ -72,7 +73,7 @@ const Gallery = () => {
                                 <img src={images2} loading="lazy" className="w-full h-full object-cover rounded-lg shadow-lg" />
                             </div>
                             <div className="absolute inset-0 flex justify-between items-center px-4">
-                                <a href="#slide62" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12 bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❮</a>
+                                <a href="#slide63" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12 bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❮</a>
                                 <a href="#slide4" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12 bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❯</a>
                             </div>
                         </div>
@@ -413,6 +414,16 @@ const Gallery = () => {
                             </div>
                             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                                 <a href="#slide61" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❮</a>
+                                <a href="#slide63" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❯</a>
+                            </div>
+                        </div>
+
+                        <div id="slide63" className="carousel-item relative w-full items-center justify-center">
+                            <div className="w-full h-[500px] md:h-[600px] flex items-center justify-center">
+                            <img src={images55} loading="lazy" className="w-full h-full object-center rounded-lg shadow-lg" />
+                            </div>
+                            <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                <a href="#slide62" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❮</a>
                                 <a href="#slide2" className="btn btn-circle bg-black/50 text-white w-10 h-10 md:w-12 md:h-12">❯</a>
                             </div>
                         </div>
