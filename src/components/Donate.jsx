@@ -3,8 +3,7 @@ import info from "../assets/pdf/bbbinfo.pdf"
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 // import myFlyer from "../assets/images/flyer.png"
-import qrCode from "../assets/images/qr-code.jpg"
-import yogaQRCode from "../assets/images/yoga_QR_code.png"
+import qrCode from "../assets/images/qr-code2.png"
 import myLogo from "../assets/images/myLogo.png";
 import donationsBg from "../assets/images/donations.png";
 
@@ -32,7 +31,7 @@ const Donate = () => {
    const handleSubmit = (e) => {
         e.preventDefault()
         emailjs
-            .send("service_h1s3bh1", "template_750ajko", input, { publicKey: "Dcer_KAzgv5Ye8ngU" })
+            .send("service_6pka9j1", "template_750ajko", input, { publicKey: "Dcer_KAzgv5Ye8ngU" })
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
                 alert("Message sent!");
@@ -81,7 +80,7 @@ const Donate = () => {
 
                         <p className="py-6">Consider being the blessing in providing balance to so many, one breath at a time, by investing in our work.</p>
 
-                        <img src={yogaQRCode} alt="" />
+                        <img src={qrCode} alt="" />
 
                         <button className="btn btn-primary rounded-badge mt-2 bg-green-700 text-zinc-50 hover:bg-green-500" onClick={() => window.open("https://givebutter.com/3Nv2cE/", "_blank")}>DONATE NOW</button>
 
@@ -103,7 +102,7 @@ const Donate = () => {
                                 <p>Phoenix, AZ 85048</p>
                             </section>
                             <div className="flex flex-col justify-center items-center py-6">
-                            <img src={qrCode} alt="" />
+                            {/* <img src={qrCode} alt="" /> */}
                             </div>
 
                         </div>

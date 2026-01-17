@@ -32,7 +32,7 @@ const BottomNavbar = () => {
    const handleSubmit = (e) => {
         e.preventDefault()
         emailjs
-            .send("service_h1s3bh1", "template_750ajko", input, { publicKey: "Dcer_KAzgv5Ye8ngU" })
+            .send("service_6pka9j1", "template_750ajko", input, { publicKey: "Dcer_KAzgv5Ye8ngU" })
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
                 alert("Message sent!");
