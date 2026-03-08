@@ -19,7 +19,16 @@ const Services = () => {
             <div className="flex h-full flex-col" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
 
                 <div className="px-4 sm:px-6" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
-                    <h1 className="text-base text-center" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>Fees are based on a sliding scale to accommodate organizational needs. Payment is accepted in the form of Venmo, Zelle, and business/school/organizational checks. We offer limited online workshops but we are available to travel state-wide. Contact us today using the mail icon below to get started!</h1>
+                    <h1 className="text-base text-center" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}><small>Fees are based on a sliding scale to accommodate organizational needs. Payment is accepted in the form of Venmo, Zelle, and business/school/organizational checks. We offer limited online workshops but we are available to travel state-wide. Contact us today using the mail icon below to get started!</small></h1>
+                </div>
+
+                <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
+                    <figure className="max-w-20 min-w-20 max-h-20 min-h-20">
+                        <img src={articleCover1} loading="lazy" alt="Christian Yoga Magazine cover" />
+                        </figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Yoga Therapy</h2>
+                    </div>
                 </div>
 
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
@@ -49,14 +58,6 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
-                    <figure className="max-w-20 min-w-20 max-h-20 min-h-20">
-                        <img src={articleCover1} loading="lazy" alt="Christian Yoga Magazine cover" />
-                        </figure>
-                    <div className="card-body">
-                        <h2 className="card-title">Yoga & Creative Journaling</h2>
-                    </div>
-                </div>
 
                 <div className="card card-side bg-base-100" style={{ color: '#6c9894', backgroundColor: '#d0efe1', textShadow: '1px 1px 2px black' }}>
                     <figure className="max-w-20 min-w-20 max-h-20 min-h-20">

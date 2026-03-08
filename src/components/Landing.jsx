@@ -22,7 +22,7 @@ const Landing = () => {
                         <img src={heroImg} className="rounded-full lg:h-3/5" style={{ border: '2px solid #d0efe1' }} />
 
                         <div className="w-full" style={{ backgroundColor: '#d0efe1', color: 'black', lineHeight: '1.3rem' }} >
-                            <p className="py-6 m-3 max-md:text-sm" >Dedicated to bringing yoga to underserved, underrepresented, marginalized, and system/justice-impacted populations. Providing the healing practice of yoga to reclaim empowerment and harmony. Restoring self-esteem, self-efficacy, and individualism.</p>
+                            <p className="py-6 m-3 max-md:text-sm" ><i>"Dedicated to bringing yoga and yoga therapy to underserved, underrepresented, marginalized, and system/justice-impacted populations. Providing the healing practice of yoga to reclaim empowerment and harmony. Restoring self-esteem, self-efficacy, and individualism."</i></p>
                         </div>
                         <div className="d-flex justify-center items-center flex-column">
                         <img src={credentials} />

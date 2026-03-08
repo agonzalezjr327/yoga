@@ -26,16 +26,29 @@ const Links = () => {
                         <h1 className="text-xl text-center mb-4"> The Yoga for Empowered Women Program features justice-impacted women to share their stories with community supporters through mindfulness and creative journaling.</h1>
 
                         <h2 class="text-center text-xl">
-                            Listen to my podcast interview with Dr. Donna Jagielski here: 
-                             <a
-                                href="https://www.youtube.com/watch?v=-2cjd0mOnwo"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="font-bold transition-all duration-200 hover:scale-105 hover:font-extrabold"
-                            >
-                                 Move the needle podcast
-                            </a>
-                            <span class="font-normal"> (interview begins at 23:17)</span>
+                            Listen to my podcast interviews with Dr. Donna Jagielski below: 
+                            <ul>
+                                <li> <u>
+                                     <a
+                                    href="https://www.youtube.com/watch?v=-2cjd0mOnwo"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="font-bold transition-all duration-200 hover:scale-105 hover:font-extrabold"
+                                                                >
+                                      Move the needle podcast
+                                                                <span class="font-normal"> (interview begins at 23:17)</span>
+                                                                </a>
+                                </u></li>
+                            <li><u>
+                                <a
+                                    href="https://www.youtube.com/watch?v=6znQHahhDrk"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="font-bold transition-all duration-200 hover:scale-105 hover:font-extrabold"
+                                >Partner Love: Interview with Iana Valez, Executive Director of Yoga Love Magazine</a>
+                            </u></li>
+                                </ul> 
+                            
                         </h2>
 
 
